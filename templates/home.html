@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	{% for post in posts%}
+			<a href="https://www.twitter.com/{{ post.tweet }}">
+				<a href="https://www.twitter.com/{{ post.tweet }}">
+					<img src='https://demo.cloudimg.io/crop/300x300/n/{{ post.image }}' style="float:left;"  class="center" alt="{{ post.body }}">
+				</a>
+			</a>
+		
+	{% endfor %}
+{% endblock content %}
