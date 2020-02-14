@@ -2,13 +2,13 @@
 
 {% block content %}
 	<div class='container'>
-		<a href="https://github.com/manrajpannu">
+		<a href="https://github.com/manrajpannu/visualize-twitter">
 			<h1 id="visualize-twitter" >visualize-twitter</h1>
 		</a>
 
 		<h4 style="padding-top: 20px;">Visualize Twitter is a a full-stack twitter scraper made using the Flask framework for Python 🐦</h4>
 
-					<p>A beginner project using the following stack:</p>
+		<p>A beginner project using the following stack:</p>
 
 		<ul>
 			<li>Python</li>
@@ -16,12 +16,14 @@
 			<li>HTML/CSS</li>
 		</ul>
 		
-		<p>
-			Visualize Twitter works by scraping recent images from twitter based on search terms.
-		</p>
+		<p>Visualize Twitter works by scraping recent images from twitter based on search terms.</p>
 		<h4 style="padding-top: 20px;">How to use</h4>
 
-		<p>Search a keyword of your choosing, and wait around 30 seconds. If you don't see a change, refresh the page.</p>
+		<p>Search a keyword of your choosing, and wait around 30 seconds. </p>
+		<form action="/search" method="Get" class="form-inline my-2 my-lg-0">
+			<input name="text" class="form-control mr-sm-2" type="text" placeholder="Type a word" aria-label="Search">
+			<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+		</form>
 
 		<h4 style="padding-top: 20px;">What I learned</h4>
 

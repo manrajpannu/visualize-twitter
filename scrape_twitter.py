@@ -16,6 +16,6 @@ def get_pictures(search_term, limit, days_back=7):
 		for images_url in tweet.img_urls:
 			output.append({'image':str(images_url),"tweet": str(tweet.tweet_url)})
 
-
-	with open("temp.py",'w') as f:
-		f.write('posts = '+json.dumps(output))
+	return output
+	# with open("temp.py",'w') as f:
+	# 	f.write('posts = '+json.dumps(output))

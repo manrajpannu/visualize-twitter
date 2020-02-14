@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+	<div class='container'>
+		<a href="https://github.com/manrajpannu/visualize-twitter">
+			<h1 id="visualize-twitter" >visualize-twitter</h1>
+		</a>
+
+		<p>
+			Visualize Twitter works by scraping recent images from twitter based on search terms.
+		</p>
+		<h4 style="padding-top: 20px;">How to use</h4>
+
+		<p>Search a keyword of your choosing, and wait around 30 seconds.</p>
+		<form action="/search" method="Get" class="form-inline my-2 my-lg-0">
+			<input name="text" class="form-control mr-sm-2" type="text" placeholder='try "{{ text }}"' aria-label="Search">
+			<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+		</form>
+
+
+	</div>
+
+{% endblock content %}
