@@ -7,7 +7,7 @@ A beginner project using the following stack:
 * Python
 * Flask
 * HTML/CSS
-* ul
+* Bootstrap
 		
 Visualize Twitter works by scraping recent images from twitter based on search terms.
 	
