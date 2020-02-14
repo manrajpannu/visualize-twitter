@@ -1,4 +1,4 @@
-# (visualize-twitter)[https://visual-twitter.herokuapp.com/]
+# [visualize-twitter](https://visual-twitter.herokuapp.com/)
 Visualize Twitter is a a full-stack twitter scraper made using the Flask framework for Python 🐦</h4>
 
 [DEMO](https://visual-twitter.herokuapp.com/)
