@@ -2,8 +2,8 @@
 Visualize Twitter is a a full-stack twitter scraper made using the Flask framework for Python 🐦</h4>
 
 A beginner project using the following stack:
-* Python<
-* Flask<
+* Python
+* Flask
 * HTML/CSS
 * ul
 		
